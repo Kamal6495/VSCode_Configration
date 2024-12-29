@@ -69,7 +69,7 @@ Open tasks.json in VS Code and copy the following configuration:
           "${workspaceFolder}"
         ],
         "pattern": {
-          "regexp": "^(.*):(\d+):(\d+):\s+(warning|error):\s+(.*)$",
+          "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
           "file": 1,
           "line": 2,
           "column": 3,

@@ -36,3 +36,40 @@ The custom `tasks.json` and `keybindings.json` configuration in Visual Studio Co
 ## Summary:
 
 This setup enables, to run programs or scripts directly from VS Code using a custom keyboard shortcut, streamlining the development and testing process.
+
+
+
+
+
+# For Multiple Tasks Like Java, C++, so on use this method Provided Below
+## Visual Studio Code Task Setup
+
+This contains an example of how to define multiple tasks in the `tasks.json` file for Visual Studio Code. The `tasks` are defined as an `array`  of objects separated by `comma (,)`, each representing a specific command or script to be run within VS Code.
+
+## Structure and Syntax:
+   - The `tasks` array holds multiple tasks.
+   - Each task contains properties like `label`, `type`, `command`, `args`, `group`, `problemMatcher`, and `detail` to control what the task does.
+   
+
+## Example `tasks.json`
+
+```json
+{
+    "version": "0.0.0",
+    "tasks": [
+        {
+            "label": "Java",
+         //some commands
+        },
+        {
+            "label": "C++",
+            //some commands
+        },
+        {
+            "label": "python",
+        //some commands
+        }
+    ]
+}
+
+
